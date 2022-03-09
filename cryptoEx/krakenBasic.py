@@ -7,7 +7,7 @@ import base64
 
 
 
-
+# Cite from https://docs.kraken.com/rest/#section/Authentication/Headers-and-Signature
 def _krakenBasic_get_kraken_signature(urlpath, data, secret):
     # 直接从 API 文档复制的
     postdata = parse.urlencode(data)
