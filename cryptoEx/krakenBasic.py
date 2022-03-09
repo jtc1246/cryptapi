@@ -22,6 +22,7 @@ def _krakenBasic_isFuture(url:str):
     return url.find('futures.')>=0
 
 
+# Cite from https://github.com/CryptoFacilities/REST-v3-Python/blob/master/cfRestApiV3.py
 def _krakenBasic_sign_message(endpoint, postData, SecretKey,nonce):
     if endpoint.startswith('/derivatives'):
         endpoint = endpoint[len('/derivatives'):]
