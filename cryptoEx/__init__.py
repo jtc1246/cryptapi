@@ -1,4 +1,3 @@
-import imp
 from .binanceBasic import bnGet,bnPPD,bnSign
 from .huobiBasic import hbGet,hbPost,hbSign
 from .okexBasic import okGet,okPost,okSign
@@ -12,7 +11,7 @@ __all__=[
 ]
 
 
-__version__='0.0.2'
+__version__='0.0.3'
 __license__='GPL-2.0 License'
 __author__='Tiancheng Jiao'
 __url__='https://github.com/jtc1246/cryptoEx'
